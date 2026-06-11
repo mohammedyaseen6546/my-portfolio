@@ -251,6 +251,84 @@ mx-auto"
 
         <div className="mt-10 space-y-6 text-left">
 
+           <div>
+
+            <div className="flex justify-between">
+
+              <p>Express.js</p>
+
+              <p>50%</p>
+
+            </div>
+
+            <div className="bg-gray-300 h-3 rounded-full">
+
+              <div className="bg-cyan-500 h-3 rounded-full w-[90%]"></div>
+
+            </div>
+
+          </div>
+
+
+           <div>
+
+            <div className="flex justify-between">
+
+              <p>Next.js</p>
+
+              <p>70%</p>
+
+            </div>
+
+            <div className="bg-gray-300 h-3 rounded-full">
+
+              <div className="bg-cyan-500 h-3 rounded-full w-[80%]"></div>
+
+            </div>
+
+          </div>
+
+
+           <div>
+
+            <div className="flex justify-between">
+
+              <p>React.Js</p>
+
+              <p>75%</p>
+
+            </div>
+
+            <div className="bg-gray-300 h-3 rounded-full">
+
+              <div className="bg-cyan-500 h-3 rounded-full w-[80%]"></div>
+
+            </div>
+
+          </div>
+
+
+           <div>
+            <div className="flex justify-between">
+
+              <p>Java Script</p>
+
+              <p>75%</p>
+
+            </div>
+
+            <div className="bg-gray-300 h-3 rounded-full">
+
+              <div className="bg-cyan-500 h-3 rounded-full w-[85%]"></div>
+
+            </div>
+
+          </div>
+
+
+
+
+
           <div>
 
             <div className="flex justify-between">
@@ -269,25 +347,7 @@ mx-auto"
 
           </div>
 
-          <div>
-
-
-
-            <div className="flex justify-between">
-
-              <p>Java Script</p>
-
-              <p>85%</p>
-
-            </div>
-
-            <div className="bg-gray-300 h-3 rounded-full">
-
-              <div className="bg-cyan-500 h-3 rounded-full w-[85%]"></div>
-
-            </div>
-
-          </div>
+         
 
           <div>
 
@@ -309,23 +369,7 @@ mx-auto"
 
           </div>
 
-          <div>
-
-            <div className="flex justify-between">
-
-              <p>React Js</p>
-
-              <p>80%</p>
-
-            </div>
-
-            <div className="bg-gray-300 h-3 rounded-full">
-
-              <div className="bg-cyan-500 h-3 rounded-full w-[80%]"></div>
-
-            </div>
-
-          </div>
+         
 
         </div>
 
