@@ -3,7 +3,6 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
-  faFacebookF,
   faTwitter,
   faInstagram,
   faLinkedinIn,
@@ -11,19 +10,17 @@ import {
 
 export const Header = () => {
   return (<>
-    <div id="home" className="min-h-screen flex overflow-hidden ">
+    <div id="home" className="min-h-screen flex flex-col md:flex-row overflow-hidden">
 
 
-      <div className="w-1/2 bg-gray-100 relative flex flex-col justify-center pl-40">
+      <div className="w-full md:w-1/2 bg-gray-100 relative flex flex-col justify-center px-6 md:pl-52 md:pr-20 py-20">
 
-
-        <h1 className="absolute top-10 left-40 text-3xl font-bold">
+        <h1 className="absolute top-5 left-5 md:top-10 md:left-20 text-xl md:text-3xl font-bold">
           Web<span className="text-cyan-500">Developer</span>
         </h1>
 
 
-        <div className="absolute left-10 top-1/2 -translate-y-1/2 flex flex-col gap-10 border border-black-200 rounded-full px-5 py-10 text-brown-400 text-2xl">
-
+        <div className="hidden lg:flex absolute left-4 top-1/2 -translate-y-1/2 flex-col gap-10 border rounded-full px-5 py-10 text-2xl">
 
 
           <a
@@ -65,7 +62,7 @@ export const Header = () => {
 
 
         <div>
-          <p className="text-5xl text-cyan-500 font-semibold">
+          <p className="text-3xl md:text-5xl text-cyan-500 font-semibold">
             Hello I'm
           </p>
 
@@ -73,11 +70,11 @@ export const Header = () => {
             Mohammed Yaseen
           </h1>
 
-          <p className="text-3xl mt-6 text-slate-700">
+          <p className="text-lg sm:text-2xl lg:text-3xl mt-4 text-slate-700">
             Professional Web Developer
           </p>
 
-          <p className="mt-6 text-gray-500 text-xl leading-10">
+          <p className="mt-4 text-gray-500 text-base md:text-lg lg:text-xl leading-7 md:leading-8">
             Experienced in Web Development with the ability<br />
             to develop scalable websites and web applications.
           </p>
@@ -108,16 +105,15 @@ hover:to-cyan-700">
       </div>
 
 
-      <div className="w-1/2 bg-slate-300 relative">
+      <div className="w-full md:w-1/2 bg-slate-300 relative min-h-[500px]">
 
 
         <div className="absolute left-[-120px] top-0 w-[250px] h-full bg-gray-100 rotate-[20deg]"></div>
 
 
-        <div className="flex justify-center gap-12 text-brown ml-30 text-xl font-semibold pt-10 relative z-10">
-          <a
-            href="#home"
-            className="
+        <div className="flex flex-wrap justify-center gap-4 md:gap-10 text-xl font-semibold pt-10 relative z-10">          <a
+          href="#home"
+          className="
   px-5 py-2
   rounded-lg
   text-black
@@ -131,9 +127,9 @@ hover:to-cyan-700">
   hover:shadow-lg
   hover:scale-105
   "
-          >
-            Home
-          </a>
+        >
+          Home
+        </a>
 
           <a
             href="#about"
@@ -199,19 +195,20 @@ hover:to-cyan-700">
         </div>
 
 
-        <div className=" mt-1 ml-60 ">
+        <div className="flex justify-center items-center mt-10 md:mt-20 md:ml-30">
 
           <img
             src="/portimage.png"
             alt="Mohammed Yaseen"
             className="
-      w-[450px]
-      h-[500px]
-      object-cover
-      rounded-full
-      drop-shadow-4xl
-      absolute
-      bottom-30"
+w-[250px]
+sm:w-[320px]
+md:w-[400px]
+lg:w-[450px]
+h-auto
+object-cover
+rounded-full
+mx-auto"
           />
 
         </div>
@@ -224,14 +221,14 @@ hover:to-cyan-700">
 
     <div
       id="about"
-      className="bg-gray-100 gap-30 px-20 py-20 pl-80 "
+      className="bg-gray-100 px-6 md:px-20 py-20"
     >
 
 
 
 
 
-      <div className="max-w-[600px] ml-25">
+      <div className="max-w-[600px] mx-auto">
 
         <p className="text-cyan-500 text-lg font-semibold uppercase tracking-[6px]">
           About
@@ -243,7 +240,7 @@ hover:to-cyan-700">
 
         <div className="w-25 h-1 bg-cyan-500 mt-4"></div>
 
-        <p className="mt-6 text-gray-600 leading-8">
+        <p className="mt-6 text-gray-600 leading-7 md:leading-8">
           Passionate Web Developer with strong problem-solving skills
           and experience building responsive and scalable web applications.
           Dedicated to creating clean, user-friendly and efficient
