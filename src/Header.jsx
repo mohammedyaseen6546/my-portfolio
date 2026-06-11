@@ -66,7 +66,7 @@ export const Header = () => {
             Hello I'm
           </p>
 
-          <h1 className="text-7xl font-bold text-slate-800 mt-4">
+          <h1 className="text-5xl md:text-7xl font-bold text-slate-800 mt-4">
             Mohammed Yaseen
           </h1>
 
@@ -75,8 +75,7 @@ export const Header = () => {
           </p>
 
           <p className="mt-4 text-gray-500 text-base md:text-lg lg:text-xl leading-7 md:leading-8">
-            Experienced in Web Development with the ability<br />
-            to develop scalable websites and web applications.
+            Experienced in Web Development with the ability to develop scalable websites and web applications.
           </p>
 
           <a href="#contact">
@@ -111,7 +110,7 @@ hover:to-cyan-700">
         <div className="absolute left-[-120px] top-0 w-[250px] h-full bg-gray-100 rotate-[20deg]"></div>
 
 
-        <div className="flex flex-wrap justify-center gap-4 md:gap-10 text-xl font-semibold pt-10 relative z-10">          <a
+        <div className="hidden md:flex justify-center gap-10 text-xl font-semibold pt-10 relative z-10">        <a
           href="#home"
           className="
   px-5 py-2

@@ -68,30 +68,30 @@ return (
 
 <div>
 
-<p className="ml-95 text-cyan-500 text-lg font-semibold uppercase tracking-[6px]">
+<p className="text-center text-cyan-500 text-lg font-semibold uppercase tracking-[6px]">
 Projects
 </p>
 
-<p className=" ml-95 mt-3 text-4xl font-bold text-slate-900 mt-4 tracking-tight">
+<p className="text-center mt-3 text-3xl md:text-4xl font-bold text-slate-900 tracking-tight">
   Latest <span className="text-cyan-500">Projects</span>
 
 </p>
 
 
 
-<div className="w-25 mt-5 h-1 ml-95 bg-blue-400 mt-3">
+<div className="w-24 h-1 bg-blue-400 mt-3 mx-auto">
 </div>
 
 </div>
 
 
-<div className="flex justify-evenly  mt-15">
+<div className="flex flex-wrap justify-center gap-8 mt-12">
 
 {projects.slice(start,start+4).map((project,index)=>(
 
 <div
 key={index}
-className="w-[320px]"
+className="w-[260px] md:w-[320px]"
 >
 
 <a
@@ -101,7 +101,7 @@ className="w-[320px]"
 >
   <img
     src={project.image}
-    className="w-50 h-50 rounded-lg hover:scale-105 duration-300"
+    className="w-full h-48 object-cover rounded-lg hover:scale-105 duration-300"
   />
 </a>
 
