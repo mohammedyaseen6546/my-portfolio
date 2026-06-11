@@ -4,9 +4,8 @@ export const Hireme = () => {
     return (
 
         <>
-            <div className=' ml-40 w-300 mt-20'>
-                <div className='bg-gradient-to-r from-gray-300 via-blue-200 to-gray-300 flex justify-evenly w-300 h-80 border-2 border-black rounded-lg '>
-
+            <div className="w-full max-w-6xl mx-auto mt-20 px-4">
+<div className='bg-gradient-to-r from-gray-300 via-blue-200 to-gray-300 flex flex-col md:flex-row justify-evenly border-2 border-black rounded-lg p-6'>
                     <div>
                         <p className=' font-bold text-2xl mt-2 '>Have Any Project in Mind? </p>
                         <p className="w-25 h-1 bg-cyan-500 mt-4  w-25 h-1 bg-cyan-500 mt-4"></p>

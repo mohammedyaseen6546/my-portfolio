@@ -1,4 +1,5 @@
 import React from "react";
+import { FaEnvelope } from "react-icons/fa";
 import {
     FaFacebookF,
     FaTwitter,
@@ -11,14 +12,14 @@ const Footer = () => {
         <footer className="bg-gray-100 py-20">
             <div className="container mx-auto px-4 text-center">
 
-                
-                <h2 className="text-4xl font-bold mb-10">
+
+                <h2 className="text-3xl md:text-4xl font-bold mb-12">
                     Web Developer
                 </h2>
 
-               
-                <div className="flex justify-center gap-5 mb-10">
-                    
+
+                <div className="flex justify-center gap-8 mb-12 text-xl">
+
 
                     <a
                         href="https://twitter.com/mohd_yaseen6546"
@@ -42,37 +43,27 @@ const Footer = () => {
                     </a>
                 </div>
 
-                
-                <h3 className="text-4xl md:text-4xl font-bold text-slate-800 mb-10">
+
+                <a
+                    href="mailto:mohammedyaseen6546@gmail.com"
+                    className="flex justify-center items-center hover:scale-105 cursor-pointer gap-3 text-xl md:text-3xl font-semibold text-slate-700 mb-10 hover:text-cyan-500 transition duration-300"
+                >
+                    <FaEnvelope />
                     mohammedyaseen6546@gmail.com
-                </h3>
+                </a>
 
-                
-                <ul className="flex flex-wrap justify-center gap-8 text-lg font-medium mb-12">
-                    <li>
-                        <a href="#home" className="hover:text-cyan-500 transition">
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#about" className="hover:text-cyan-500 transition">
-                            About
-                        </a>
-                    </li>
-                   
-                    <li>
-                        <a href="#projects" className="hover:text-cyan-500 transition">
-                            Projects
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#contact" className="hover:text-cyan-500 transition">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
+                <a
+                    href="https://github.com/mohammedyaseen6546"
+                    target="_blank"
+                    className="block hover:scale-105 cursor-pointer hover:text-cyan-500 text-lg font-medium mb-8  transition duration-300"
+                >
+                    GitHub
+                </a>
 
-                
+
+
+
+
                 <p className="text-gray-500">
                     © {new Date().getFullYear()} Mohammed Yaseen. All Rights Reserved.
                 </p>

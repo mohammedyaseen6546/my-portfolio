@@ -63,7 +63,7 @@ return (
 
 <div
   id="projects"
-  className="px-10 py-15 bg-gray-100"
+  className="px-10 py-8 bg-gray-100"
 >
 
 <div>
@@ -85,13 +85,13 @@ Projects
 </div>
 
 
-<div className="flex flex-wrap justify-center gap-8 mt-12">
+<div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
 
 {projects.slice(start,start+4).map((project,index)=>(
 
 <div
 key={index}
-className="w-[260px] md:w-[320px]"
+className="w-full"
 >
 
 <a
@@ -101,7 +101,7 @@ className="w-[260px] md:w-[320px]"
 >
   <img
     src={project.image}
-    className="w-full h-48 object-cover rounded-lg hover:scale-105 duration-300"
+   className="w-full h-32 md:h-48 object-cover rounded-lg hover:scale-105 duration-300"
   />
 </a>
 

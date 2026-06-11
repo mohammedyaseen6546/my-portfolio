@@ -104,10 +104,10 @@ hover:to-cyan-700">
       </div>
 
 
-      <div className="w-full md:w-1/2 bg-slate-300 relative min-h-[500px]">
+     <div className="w-full md:w-1/2 bg-slate-300 relative min-h-[350px] md:min-h-[500px]">
 
 
-        <div className="absolute left-[-120px] top-0 w-[250px] h-full bg-gray-100 rotate-[20deg]"></div>
+        <div className="absolute left-[-120px] top-0 w-[220px] h-full bg-gray-100 rotate-[20deg]"></div>
 
 
         <div className="hidden md:flex justify-center gap-10 text-xl font-semibold pt-10 relative z-10">        <a
@@ -194,18 +194,18 @@ hover:to-cyan-700">
         </div>
 
 
-        <div className="flex justify-center items-center mt-10 md:mt-20 md:ml-30">
+        <div className="flex justify-center items-center mt-4 md:mt-20 md:ml-20">
 
           <img
             src="/portimage.png"
             alt="Mohammed Yaseen"
             className="
-w-[250px]
-sm:w-[320px]
-md:w-[400px]
-lg:w-[450px]
+w-[280px]
+sm:w-[350px]
+md:w-[450px]
+lg:w-[520px]
 h-auto
-object-cover
+object-contain
 rounded-full
 mx-auto"
           />
@@ -227,7 +227,7 @@ mx-auto"
 
 
 
-      <div className="max-w-[600px] mx-auto">
+      <div className="max-w-[700px] mx-auto text-center">
 
         <p className="text-cyan-500 text-lg font-semibold uppercase tracking-[6px]">
           About
@@ -237,7 +237,7 @@ mx-auto"
           Why <span className="text-cyan-500">Choose Me</span>
         </h1>
 
-        <div className="w-25 h-1 bg-cyan-500 mt-4"></div>
+        <div className="w-25 h-1 bg-cyan-500 mt-4 mx-auto"></div>
 
         <p className="mt-6 text-gray-600 leading-7 md:leading-8">
           Passionate Web Developer with strong problem-solving skills
@@ -249,7 +249,7 @@ mx-auto"
 
 
 
-        <div className="mt-10 space-y-6">
+        <div className="mt-10 space-y-6 text-left">
 
           <div>
 
