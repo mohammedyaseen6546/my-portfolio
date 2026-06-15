@@ -20,13 +20,8 @@ github:"https://github.com/mohammedyaseen6546/collegeGo"
 {
 image:"https://img.magnific.com/free-vector/fitness-concept-illustration_1284-7547.jpg",
 title:"FITNESS MEAL PLANNER",
-category:"Health Project"
-},
-
-{
-image:"https://media.geeksforgeeks.org/wp-content/uploads/20240207113731/Portfolio-Website-Project-Banner.webp",
-title:"PORTFOLIO WEBSITE",
-category:"React Project"
+category:"Health Project",
+github:"https://github.com/mohammedyaseen6546/fitness-meal-planner"
 },
 
 {
