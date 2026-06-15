@@ -10,11 +10,22 @@ import {
 
 export const Header = () => {
   return (<>
-    <div id="home" className="min-h-screen flex flex-col md:flex-row overflow-hidden">
+    <div
+  id="home"
+  className="min-h-screen flex flex-col md:flex-row overflow-hidden relative"
+>
 
 
-      <div className="w-full md:w-1/2 bg-gray-100 relative flex flex-col justify-center px-6 md:pl-52 md:pr-20 py-20">
+  <div className="absolute inset-0 overflow-hidden z-0">
+  <div className="absolute top-20 left-10 w-72 h-72 bg-cyan-400/20 rounded-full blur-3xl animate-blob"></div>
 
+  <div className="absolute top-40 right-10 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl animate-blob animation-delay-2000"></div>
+
+  <div className="absolute bottom-10 left-1/2 w-72 h-72 bg-purple-400/20 rounded-full blur-3xl animate-blob animation-delay-4000"></div>
+</div>
+
+
+<div className="w-full md:w-1/2 relative z-10 flex flex-col justify-center px-6 lg:pl-40 xl:pl-52 md:pr-10 lg:pr-20 py-20">
         <h1 className="absolute top-5 left-5 md:top-10 md:left-20 text-xl md:text-3xl font-bold">
           Web<span className="text-cyan-500">Developer</span>
         </h1>
@@ -61,7 +72,7 @@ export const Header = () => {
         </div>
 
 
-        <div>
+        <div className="animate-fadeInUp">
           <p className="text-3xl md:text-5xl text-cyan-500 font-semibold">
             Hello I'm
           </p>
@@ -104,13 +115,13 @@ hover:to-cyan-700">
       </div>
 
 
-     <div className="w-full md:w-1/2 bg-slate-300 relative min-h-[350px] md:min-h-[500px]">
+<div className="w-full md:w-1/2 relative z-10 min-h-[350px] md:min-h-[500px]">
 
+ 
 
-        <div className="absolute left-[-120px] top-0 w-[220px] h-full bg-gray-100 rotate-[20deg]"></div>
-
-
-        <div className="hidden md:flex justify-center gap-10 text-xl font-semibold pt-10 relative z-10">        <a
+        <div className="hidden md:flex justify-center pt-8 relative z-10">
+  <div className="flex gap-8 px-8 py-3 rounded-full bg-white/30 backdrop-blur-md border border-white/40 shadow-lg"> 
+                 <a
           href="#home"
           className="
   px-5 py-2
@@ -192,9 +203,10 @@ hover:to-cyan-700">
 
 
         </div>
+        </div>
 
 
-        <div className="flex justify-center items-center mt-4 md:mt-20 md:ml-20">
+        <div className="animate-fadeInRight flex justify-center items-center mt-4 md:mt-20 md:ml-20">
 
           <img
             src="/portimage.png"
@@ -207,7 +219,10 @@ lg:w-[520px]
 h-auto
 object-contain
 rounded-full
-mx-auto"
+mx-auto
+animate-float
+drop-shadow-2xl
+"
           />
 
         </div>
@@ -219,9 +234,10 @@ mx-auto"
 
 
     <div
-      id="about"
-      className="bg-gray-100 px-6 md:px-20 py-20"
-    >
+  id="about"
+  data-aos="fade-up"
+  className=" px-6 md:px-20 py-20"
+>
 
 
 
@@ -263,7 +279,7 @@ mx-auto"
 
             <div className="bg-gray-300 h-3 rounded-full">
 
-              <div className="bg-cyan-500 h-3 rounded-full w-[90%]"></div>
+              <div className="bg-cyan-500 h-3 rounded-full w-[50%]"></div>
 
             </div>
 
@@ -276,14 +292,13 @@ mx-auto"
 
               <p>Next.js</p>
 
-              <p>70%</p>
+              <p>65%</p>
 
             </div>
 
             <div className="bg-gray-300 h-3 rounded-full">
 
-              <div className="bg-cyan-500 h-3 rounded-full w-[80%]"></div>
-
+<div className="bg-cyan-500 h-3 rounded-full w-[65%]"></div>
             </div>
 
           </div>
@@ -301,7 +316,7 @@ mx-auto"
 
             <div className="bg-gray-300 h-3 rounded-full">
 
-              <div className="bg-cyan-500 h-3 rounded-full w-[80%]"></div>
+              <div className="bg-cyan-500 h-3 rounded-full w-[75%]"></div>
 
             </div>
 
@@ -313,13 +328,32 @@ mx-auto"
 
               <p>Java Script</p>
 
-              <p>75%</p>
+              <p>65%</p>
 
             </div>
 
             <div className="bg-gray-300 h-3 rounded-full">
 
-              <div className="bg-cyan-500 h-3 rounded-full w-[85%]"></div>
+              <div className="bg-cyan-500 h-3 rounded-full w-[65%]"></div>
+
+            </div>
+
+          </div>
+
+
+          <div>
+
+            <div className="flex justify-between">
+
+              <p>Java</p>
+
+              <p>40%</p>
+
+            </div>
+
+            <div className="bg-gray-300 h-3 rounded-full">
+
+              <div className="bg-cyan-500 h-3 rounded-full w-[40%]"></div>
 
             </div>
 
@@ -335,13 +369,13 @@ mx-auto"
 
               <p>HTML/CSS</p>
 
-              <p>90%</p>
+              <p>85%</p>
 
             </div>
 
             <div className="bg-gray-300 h-3 rounded-full">
 
-              <div className="bg-cyan-500 h-3 rounded-full w-[90%]"></div>
+              <div className="bg-cyan-500 h-3 rounded-full w-[85%]"></div>
 
             </div>
 
@@ -363,7 +397,7 @@ mx-auto"
 
             <div className="bg-gray-300 h-3 rounded-full">
 
-              <div className="bg-cyan-500 h-3 rounded-full w-[85%]"></div>
+              <div className="bg-cyan-500 h-3 rounded-full w-[90%]"></div>
 
             </div>
 

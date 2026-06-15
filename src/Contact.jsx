@@ -29,14 +29,15 @@ export const Contact = () => {
   return (
     <>
       <section
-        id="contact"
-        className="min-h-screen bg-gray-100 relative flex flex-col items-center justify-center px-6 overflow-hidden"
-      >
+  id="contact"
+  data-aos="fade-left"
+  className="min-h-screen  relative flex flex-col items-center justify-center px-6 overflow-hidden"
+>
         {/* Background Lines */}
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#d1d5db_1px,transparent_1px)] bg-[size:80px_100%] opacity-30"></div>
 
         {/* Heading */}
-        <div className="text-center mt-30 z-10">
+        <div className="text-center mt-20 z-10">
           <p className="uppercase tracking-[5px] text-gray-500 font-semibold">
             Contact
           </p>

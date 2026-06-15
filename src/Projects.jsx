@@ -58,7 +58,8 @@ return (
 
 <div
   id="projects"
-  className="px-10 py-8 bg-gray-100"
+  data-aos="zoom-in"
+  className="mt-2 px-10 py-15 "
 >
 
 <div>

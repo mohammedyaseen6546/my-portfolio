@@ -9,11 +9,17 @@ import {
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-100 py-20">
+        <footer
+            data-aos="fade-up"
+            className=" py-20"
+        >
             <div className="container mx-auto px-4 text-center">
 
 
-                <h2 className="text-3xl md:text-4xl font-bold mb-12">
+                <h2
+                    data-aos="zoom-in"
+                    className="text-3xl md:text-4xl font-bold mb-12"
+                >
                     Web Developer
                 </h2>
 
@@ -23,21 +29,21 @@ const Footer = () => {
 
                     <a
                         href="https://twitter.com/mohd_yaseen6546"
-                        className="w-12 h-12  flex items-center justify-center hover:text-blue-500 hover:scale-125 cursor-pointer transition duration-300"
+                        className="w-12 h-12 flex items-center justify-center hover:text-blue-500 hover:scale-125 cursor-pointer transition duration-300 animate-float"
                     >
                         <FaTwitter />
                     </a>
 
                     <a
                         href="https://instagram.com/syed__iliyaz"
-                        className="w-12 h-12  flex items-center justify-center hover:text-blue-500 hover:scale-125 cursor-pointer transition duration-300"
+                        className="w-12 h-12  flex items-center justify-center hover:text-blue-500 hover:scale-125 cursor-pointer transition duration-300 animate-float"
                     >
                         <FaInstagram />
                     </a>
 
                     <a
                         href="https://linkedin.com/in/mohammedyaseen6546"
-                        className="w-12 h-12 flex items-center justify-center hover:text-blue-500 hover:scale-125 cursor-pointer transition duration-300"
+                        className="w-12 h-12 flex items-center justify-center hover:text-blue-500 hover:scale-125 cursor-pointer transition duration-300 animate-float"
                     >
                         <FaLinkedinIn />
                     </a>

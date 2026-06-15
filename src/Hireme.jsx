@@ -4,7 +4,10 @@ export const Hireme = () => {
     return (
 
         <>
-            <div className="w-full max-w-6xl mx-auto mt-20 px-4">
+            <div
+  data-aos="zoom-in-up"
+  className="w-full max-w-6xl mx-auto mt-20 px-4"
+>
                 <div className='bg-gradient-to-r from-gray-300 via-blue-200 to-gray-300 flex flex-col md:flex-row justify-evenly border-2 border-black rounded-lg p-6'>
                     <div>
                         <p className=' font-bold text-2xl mt-2 '>Have Any Project in Mind? </p>
