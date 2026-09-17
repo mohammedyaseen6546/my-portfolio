@@ -1,52 +1,248 @@
-import React from 'react'
+import React from "react";
 
 export const Hireme = () => {
-    return (
+  return (
+    <section
+      data-aos="zoom-in-up"
+      className="w-full max-w-6xl mx-auto mt-20 px-4 sm:px-6"
+    >
+      <div
+        className="
+          relative
+          overflow-hidden
+          rounded-3xl
+          border
+          border-cyan-200
+          bg-gradient-to-br
+          from-white
+          via-sky-50
+          to-blue-100
+          shadow-[0_20px_60px_rgba(15,23,42,0.12)]
+        "
+      >
 
-        <>
-            <div
-  data-aos="zoom-in-up"
-  className="w-full max-w-6xl mx-auto mt-20 px-4"
->
-                <div className='bg-gradient-to-r from-gray-300 via-blue-200 to-gray-300 flex flex-col md:flex-row justify-evenly border-2 border-black rounded-lg p-6'>
-                    <div>
-                        <p className=' font-bold text-2xl mt-2 '>Have Any Project in Mind? </p>
-                        <p className="w-25 h-1 bg-cyan-500 mt-4  w-25 h-1 bg-cyan-500 mt-4"></p>
-                        <p className='mt-2'>I'm a Full Stack Developer passionate about building modern, scalable, and user-friendly web applications.<br /> From designing responsive front-end interfaces to developing secure back-end systems and RESTful APIs,<br /> I enjoy turning ideas into complete digital solutions.</p>
+        {/* Decorative Glow */}
+        <div
+          className="
+            absolute
+            -top-24
+            -right-24
+            w-72
+            h-72
+            bg-cyan-300/20
+            rounded-full
+            blur-3xl
+            pointer-events-none
+          "
+        ></div>
 
-                        <p className='mt-2'>I work with technologies such as JavaScript, React.js, Node.js, Express.js, MySQL, and modern web development<br /> tools to create high-performance applications.<br /> Whether it's a business website, web application, or custom software solution, I'm always excited to take on <br />new challenges and deliver quality results.</p>
+        <div
+          className="
+            absolute
+            -bottom-32
+            left-1/3
+            w-80
+            h-80
+            bg-blue-300/20
+            rounded-full
+            blur-3xl
+            pointer-events-none
+          "
+        ></div>
 
-                        <p className='font-bold mt-2'>Let's connect and build something amazing together!</p>
-                    </div>
 
+        {/* Main Content */}
+        <div
+          className="
+            relative
+            z-10
+            flex
+            flex-col
+            lg:flex-row
+            items-center
+            justify-between
+            gap-10
+            p-7
+            sm:p-10
+            lg:p-12
+          "
+        >
 
-                    <div>
-                        <a href="#contact">
-                            <button className="mt-30 px-10 py-4  mt-10
-px-10
-py-4
-bg-gradient-to-r
-from-gray-800
-via-slate-700
-to-gray-900
-text-white
-rounded-lg
-font-semibold
-shadow-lg
-transition-all
-duration-300
-hover:scale-105
-hover:shadow-2xl
-hover:from-slate-700
-hover:via-slate-600
-hover:to-cyan-700">
-                                Contact
-                            </button>
-                        </a>
-                    </div>
-                </div>
+          {/* LEFT CONTENT */}
+          <div className="w-full lg:w-[58%]">
+
+            {/* Small Label */}
+            <div className="flex items-center gap-3 mb-5">
+
+              <span className="text-xs sm:text-sm font-semibold uppercase tracking-[4px] text-slate-500">
+                Let's Work Together
+              </span>
+
+              <span className="w-12 h-[2px] bg-slate-500"></span>
+
             </div>
 
-        </>
-    )
-}
+
+            {/* Heading */}
+            <h2
+              className="
+                text-3xl
+                sm:text-4xl
+                lg:text-5xl
+                font-extrabold
+                tracking-tight
+                text-slate-900
+                leading-tight
+              "
+            >
+              Have an Idea?
+              <br className="sm:hidden" />
+              <span className="text-cyan-500">
+                {" "}Let's Build It.
+              </span>
+            </h2>
+
+
+            {/* Description */}
+            <p
+              className="
+                mt-6
+                text-base
+                sm:text-lg
+                text-slate-600
+                leading-7
+                sm:leading-8
+                max-w-2xl
+              "
+            >
+              Let's turn your idea into something useful, modern,
+              and user-friendly. I'm always excited to bring new
+              ideas to life and create solutions that make a real impact.
+            </p>
+
+
+            <p
+              className="
+                mt-4
+                text-base
+                sm:text-lg
+                text-slate-600
+                leading-7
+                sm:leading-8
+                max-w-2xl
+              "
+            >
+              Whether it's transforming data into meaningful insights,
+              creating an interactive dashboard, or developing a responsive
+              web application, let's build a solution that is clean,
+              practical, and easy to use.
+            </p>
+
+
+            {/* Closing Text */}
+            <p
+              className="
+                mt-5
+                font-bold
+                text-slate-800
+                text-base
+                sm:text-lg
+              "
+            >
+              Let's connect and build something amazing together!
+            </p>
+
+
+            {/* CTA */}
+            <a
+              href="#contact"
+              className="
+                inline-flex
+                items-center
+                gap-3
+                mt-7
+                px-7
+                py-3.5
+                bg-slate-900
+                text-white
+                rounded-xl
+                font-semibold
+                shadow-lg
+                transition-all
+                duration-300
+                hover:bg-cyan-600
+                hover:shadow-cyan-500/30
+                hover:shadow-xl
+                hover:-translate-y-1
+                group
+              "
+            >
+              Connect With Me
+
+              <span
+                className="
+                  text-xl
+                  transition-transform
+                  duration-300
+                  group-hover:translate-x-1
+                "
+              >
+                →
+              </span>
+            </a>
+
+          </div>
+
+
+          {/* RIGHT VISUAL */}
+          <div
+            className="
+              w-full
+              lg:w-[42%]
+              flex
+              justify-center
+              items-center
+              relative
+            "
+          >
+
+            {/* Image Glow */}
+            <div
+              className="
+                absolute
+                w-64
+                h-64
+                sm:w-80
+                sm:h-80
+                bg-cyan-300/20
+                rounded-full
+                blur-3xl
+              "
+            ></div>
+
+
+            {/* Image */}
+            <img
+              src="/hireme-visual.png"
+              alt="Turning ideas into digital solutions"
+              className="
+                relative
+                z-10
+                w-full
+                max-w-[430px]
+                h-auto
+                object-contain
+                drop-shadow-[0_20px_25px_rgba(15,23,42,0.15)]
+                transition-transform
+                duration-500
+                hover:scale-105
+              "
+            />
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+  );
+};

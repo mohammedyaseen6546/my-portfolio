@@ -7,6 +7,7 @@ import Footer from './Footer'
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Skills from './Skills'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
   return (
     <>
       <Header />
+      <Skills />
       <Projects />
       <Contact />
       <Hireme />
